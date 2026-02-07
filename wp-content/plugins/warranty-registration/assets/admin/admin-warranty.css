@@ -1,0 +1,10 @@
+/* Hide WP default UI for Warranty CPT */
+.post-type-warranty #postdivrich,
+.post-type-warranty #titlediv,
+.post-type-warranty #submitdiv {
+    display: none !important;
+}
+/* Remove Publish box completely */
+.post-type-warranty #submitdiv {
+    display: none !important;
+}
